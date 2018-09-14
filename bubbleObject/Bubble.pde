@@ -10,7 +10,8 @@ class Bubble {
  }
  
  void assend() {
-   y--;
+   y-=2;
+   x = x+random(-3,3);
  }
  
  void display() {
